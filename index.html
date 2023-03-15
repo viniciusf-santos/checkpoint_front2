@@ -10,38 +10,23 @@
 </head>
 
 <body>
+  <h1 id="titulo">Criação de Personagem</h1>
   <div class="container-form">
-    <h1 id="titulo">Criação de Personagem</h1>
-    <br>
-
     <form>
-
-      <fieldset class="grupo">
-        <!-- Campo do nome com legenda "titulo" e css de classe "campo" -->
-        <div class="campo">
-          <label for="titulo"><strong>Título</strong></label>
-          <input type="text" name="titulo" id="titulo" required>
-        </div>
-
-        <!-- Campo da url com legenda "url" e css de classe "campo" -->
-        <div class="campo">
-          <label for="url"><strong>URL</strong></label>
-          <input type="text" name="url" id="url" required>
-        </div>
-      </fieldset>
-
-      <!-- Caixa de texto -->
-      <div class="campo">
-        <br>
-        <label for="descrição"><strong>Descrição</strong></label>
-        <textarea rows="6" style="width: 26em" id="descrição" name="descrição"></textarea>
+      <div>
+        <label for="usuario">Título</label>
+        <input type="text" id="titulo" name="titulo" />
       </div>
+      <div>
+        <label for="url">URL</label>
+        <input type="text" id="url" name="url" />
 
-      <!-- Botão para enviar o formulário -->
-
+        <label for="mensagem">Descrição</label>
+        <textarea id="descricao" name="descricao" rows="5"></textarea>
+        <button class="btn-cadastrar">Cadastrar</button>
+      </div>
     </form>
   </div>
-  <!-- <main> -->
   <section class="container">
 
     <div class="cards">
